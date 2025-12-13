@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Shah | Senior Software Developer</title>
+    <meta name="description"
+        content="Portfolio of Kunal Shah, a Senior Software Developer specializing in .NET, Angular, and cloud technologies.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-gradient-1"></div>
+    <div class="bg-gradient-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">KS<span class="dot">.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn-resume">Resume</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="hero-title">Kunal Shah</h1>
+                <h2 class="hero-subtitle">I build <span id="typewriter"></span></h2>
+                <p class="hero-text">
+                    Senior Software Developer specializing in building exceptional digital experiences.
+                    Converting complex problems into elegant code.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p>
+                            I'm a passionate developer with over 8 years of experience in the software industry.
+                            My journey began with simple HTML pages and has evolved into architecting complex,
+                            scalable cloud applications.
+                        </p>
+                        <p>
+                            I strive for efficient code and intuitive user experiences. When I'm not coding,
+                            you can find me exploring new tech stacks or contributing to open source.
+                        </p>
+
+                        <div class="tech-stack">
+                            <h3>Tech Stack</h3>
+                            <div class="skills-grid">
+                                <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                                <span class="skill-tag"><i class="fab fa-angular"></i> Angular</span>
+                                <span class="skill-tag"><i class="fab fa-node"></i> Node.js</span>
+                                <span class="skill-tag"><i class="devicon-csharp-plain"></i> C# .NET</span>
+                                <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                                <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+                                <span class="skill-tag"><i class="fas fa-database"></i> SQL Server</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <div class="placeholder-img">KS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <!-- Job 1 -->
+                    <div class="steps-container">
+                        <div class="content">
+                            <h3 class="job-role">Senior Engineer</h3>
+                            <span class="company">Google</span>
+                            <span class="date">May 2021 - Present</span>
+                            <p>Leading the frontend architecture for internal tools. Improved performance by 40% using
+                                Next.js.</p>
+                        </div>
+                        <i class="step-line"></i>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="steps-container">
+                        <div class="content">
+                            <h3 class="job-role">Software Engineer</h3>
+                            <span class="company">Microsoft</span>
+                            <span class="date">July 2018 - April 2021</span>
+                            <p>Developed key features for Azure DevOps. Collaborated with cross-functional teams to
+                                deliver robust APIs.</p>
+                        </div>
+                        <i class="step-line"></i>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="steps-container">
+                        <div class="content">
+                            <h3 class="job-role">Engineer Intern</h3>
+                            <span class="company">Amazon</span>
+                            <span class="date">June 2017 - Aug 2017</span>
+                            <p>Worked on AWS Lambda triggers. Automated deployment pipelines shrinking release time by
+                                20%.</p>
+                        </div>
+                        <i class="step-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="far fa-folder-open icon"></i>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Algorithmic Trading Bot</h3>
+                        <p class="project-desc">High-frequency trading bot analyzing logic from multiple crypto
+                            exchanges.</p>
+                        <ul class="project-tags">
+                            <li>Python</li>
+                            <li>ML</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="far fa-folder-open icon"></i>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">E-Commerce Dashboard</h3>
+                        <p class="project-desc">Inventory management system with real-time analytics and reporting.</p>
+                        <ul class="project-tags">
+                            <li>.NET Core</li>
+                            <li>Angular</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="far fa-folder-open icon"></i>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Task Manager</h3>
+                        <p class="project-desc">Collaborative Kanban board with drag-and-drop and team updates.</p>
+                        <ul class="project-tags">
+                            <li>React</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="far fa-folder-open icon"></i>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Chat App</h3>
+                        <p class="project-desc">End-to-end encrypted real-time messaging solution for teams.</p>
+                        <ul class="project-tags">
+                            <li>Node.js</li>
+                            <li>Socket.io</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section center-content">
+            <div class="container container-sm">
+                <span class="subtitle">What's Next?</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    my inbox is open!
+                </p>
+                <a href="mailto:kunal.shah@example.com" class="btn-primary large">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>Designed & Built by Kunal Shah</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

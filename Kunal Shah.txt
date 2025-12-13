@@ -1,0 +1,131 @@
+Kunal Shah
+Software Developer, SQL Developer
+Contact
+Phone
++91-9860158046
+Email
+kunalshah3@gmail.com
+Location
+Mumbai
+
+Skill Highlights
+Programming/Scripting
+C#, Asp.net Core API, Asp.net, Ado.net, JQuery, AJAX, HTML, CSS, Bootstrap.
+
+Database: MS SQL Server.
+
+Other Familiar Technologies
+Cursor.ai, React js, DevExpress, Azure Cognitive Services, Microservice Architecture, Crystal Report.
+
+
+AI Tools: Antigravity, Cursor.ai, Chatgpt, Perplexity, Gemini
+
+Summary
+13 years of expertise in designing innovative applications and achieving high client satisfaction.
+An enthusiastic and result-oriented team player with solid communication, technical, leadership skills, problem solving skills and the ability to develop creative solutions for challenging client needs.
+Strong Knowledge in all phases of Software Development Life Cycle (SDLC) such as developing, testing and migration.
+Well-versed with Financial domain and educational domain.
+Technical hands-on expertise on tools such as SQL Server, Dot net framework, Dot net core, Ado.net, AJAX, HTML, CSS, Bootstrap.
+
+Work Experience:
+
+Position: Assistant Vice President
+Company: BSE Technologies Pvt Ltd.
+Duration: Sep 2021 – Present
+Project: Enterprise Financial and Accounting System
+Team: Managing Team of 11 individuals.
+Role: Responsible in communicating with end users, understanding their requirements, perform impact analysis, development, testing and deployment.
+Functionality: System consists of managing purchase orders, GRN, AP Invoices, AP Payments, AR Invoices, IRN Generation, AR Receipts, Journal Voucher, Consolidation Module.
+Other Integrations: SSO integration, Cleartax, IDB System.
+Technologies: Asp.net webforms (HTML / AJAX), JQuery, SQL Server.
+
+Project: Enterprise Financial and Accounting System - API
+Team: Managing Team of 4 individuals.
+Role: Responsible in communicating with end users, communicating with third party vendors, analyzing requirements, development, testing and deployment.
+Functionality: System consists of modifying masters, inputting purchase order, AP Invoices and Journal Voucher from third party applications.
+Other Integrations: SSO, Dice Application (Vendor Onboarding and billing portal), FAMS (Asset management System).
+Technologies: Asp.net Core API, SQL Server.
+
+
+Position: Team Lead
+Company: Spine Technologies
+Duration: Feb 2021 – Aug 2021
+Project: HRMS
+Team: Managing Team of 3 individuals.
+Role: Responsible in understanding requirements from HOD, development and testing.
+Functionality: System consists of create employees, mark their attendance, assign CTC, calculate monthly salaries, expense, travel expenses.
+Technologies: Asp.net MVC, SQL Server.
+
+
+Position: Senior Software Developer
+Company: NineSquare Pvt Ltd.
+Duration: Jul 2018 – Jan 2021
+Project: ICICI Bank Portal
+Team: Managing Team of 3 individuals.
+Role: Responsible in communicating with end users, understanding their requirements, perform impact analysis, development, testing and deployment.
+Functionality: System consists of entering purchase orders, processing artwork, printing completion, challan entry, AWB update, EP Approval, Generate Dump report, GR Entry, Invoice generation.
+Technologies: Asp.net webforms (HTML / AJAX), SQL Server.
+
+Project: School ERP System
+Team: Managing Team of 8 individuals.
+Role: Responsible in communicating with end users, understanding their requirements, development, testing and deployment.
+Functionality: System consists of entering students, teachers, news, notice, admission module, fees module, exam module.
+Technologies: Asp.net webforms (HTML / AJAX), JQuery, SQL Server.
+
+Project: On-Screen Marking
+Team: Managing Team of 5 individuals.
+Role: Responsible in understanding requirements from HOD, understanding their requirements, development, testing and deployment.
+Functionality: System consists of scanning answer papers, quality assurance, seat number masking, paper assigning, Face Matching / Object identification, Marks auto calculation, Result generation.
+Other Integrations: School ERP, Azure Cognitive Services.
+Technologies: Asp.net webforms (HTML / AJAX), JQuery, SQL Server.
+
+
+Position: Software Engineer
+Company: Tecogis Software Solution
+Duration: Mar 2016 – Jul 2018
+
+Project: Event Registration
+Team: Part of team consisting of 3 individuals.
+Role: Responsible in understanding requirements from HOD, development and testing.
+Functionality: System consists of entering visitors, creating their entry passes, tracking of visitor movements.
+Technologies: C# windows forms, Crystal Report, SQL Server.
+
+Project: ITME
+Team: Part of team consisting of 3 individuals.
+Role: Responsible in understanding requirements from HOD, development and testing.
+Functionality: It consists of different forms for the exhibitors that they need to fill as per their requirement like space, electricity, furniture, etc.
+Technologies: Asp.net MVC, SQL Server.
+
+
+Position: Software Developer
+Company: J. B. Boda Reinsurance Brokers Pvt. Ltd.
+Duration: Jul 2013 – Mar 2016
+Project: Reinsurance Brokers Portal
+Team: Part of team consisting of 7 individuals.
+Role: Responsible in understanding requirements from HOD, development and testing.
+Functionality: System consists of entering finalized contracts, statement of accounts, receipts, claims and settlement.
+Technologies: Asp.net web forms with VB.net, Devexpress, SQL Server.
+
+
+Position: Software Programmer
+Company: Unigem Diamonds Pvt Ltd.
+Duration: Aug 2012 – Jul 2013
+Project: Payroll System
+Team: Part of team consisting of 2 individuals.
+Role: Responsible in understanding requirements from HOD, development and testing.
+Functionality: System consists of entering employees, calculate their leaves, process salaries.
+Technologies: VB.net Windows Forms, Crystal Report, SQL Server.
+
+
+Education
+Masters In Science – Information Technology (MSc-IT) in 2011
+Bachelor In Science – Information Technology (BSc-IT) in 2009
+HSC in 2006
+SSC in 2004
+
+Hobbies
+▪Surfing through internet
+▪Reading Books
+▪Listening Songs
+▪Playing Cricket
+▪Watching Movies
