@@ -1,5 +1,5 @@
 // Typewriter Effect
-const typeWriterRoles = ["Web Apps.", "Safe APIs.", "Cloud Systems.", "Digital Solutions."];
+const typeWriterRoles = ["Financial Systems.", "ERP Solutions.", "Cloud APIs.", "Enterprise Apps."];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
