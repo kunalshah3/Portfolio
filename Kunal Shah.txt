@@ -15,7 +15,7 @@ C#, Asp.net Core API, Asp.net, Ado.net, JQuery, AJAX, HTML, CSS, Bootstrap.
 Database: MS SQL Server.
 
 Other Familiar Technologies
-Cursor.ai, React js, DevExpress, Azure Cognitive Services, Microservice Architecture, Crystal Report.
+React js, DevExpress, Azure Cognitive Services, Microservice Architecture, Crystal Report.
 
 
 AI Tools: Antigravity, Cursor.ai, Chatgpt, Perplexity, Gemini
