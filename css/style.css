@@ -408,6 +408,248 @@ ul {
     margin-bottom: 10px;
 }
 
+/* Vibe Coding Section */
+.vibe-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.vibe-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 80% 50% at 20% 40%, rgba(88, 166, 255, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 60%, rgba(163, 113, 247, 0.05) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.vibe-header {
+    margin-bottom: 4rem;
+}
+
+.vibe-header .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vibe-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent);
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background: var(--accent-glow);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.vibe-intro {
+    max-width: 720px;
+    margin: 1.5rem auto 0;
+    color: #8b949e;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.vibe-intro strong {
+    color: var(--text-highlight);
+}
+
+.vibe-platform {
+    margin-bottom: 3.5rem;
+}
+
+.vibe-platform:last-child {
+    margin-bottom: 0;
+}
+
+.platform-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 22px;
+    border-radius: 12px;
+    margin-bottom: 1.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--card-bg);
+}
+
+.platform-badge i {
+    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.platform-badge.antigravity i {
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(232, 93, 4, 0.15));
+    color: #ff8c42;
+}
+
+.platform-badge.cursor i {
+    background: linear-gradient(135deg, rgba(163, 113, 247, 0.2), rgba(137, 87, 229, 0.15));
+    color: #a371f7;
+}
+
+.platform-name {
+    display: block;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-highlight);
+}
+
+.platform-desc {
+    display: block;
+    font-size: 0.85rem;
+    color: #8b949e;
+}
+
+.vibe-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.vibe-grid-single {
+    grid-template-columns: minmax(300px, 560px);
+}
+
+.vibe-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: 0.35s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.vibe-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(88, 166, 255, 0.25);
+    box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.6);
+}
+
+.vibe-card-image-link {
+    display: block;
+}
+
+.vibe-card-image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: #0d1117;
+}
+
+.vibe-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.vibe-card:hover .vibe-card-image img {
+    transform: scale(1.03);
+}
+
+.vibe-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(13, 17, 23, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.vibe-card-overlay span {
+    color: var(--accent);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    background: rgba(88, 166, 255, 0.1);
+}
+
+.vibe-card-image-link:hover .vibe-card-overlay {
+    opacity: 1;
+}
+
+.vibe-card-body {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.vibe-card-title {
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+}
+
+.vibe-card-desc {
+    color: #8b949e;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+}
+
+.vibe-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1.25rem;
+}
+
+.vibe-card-tags li {
+    font-size: 0.78rem;
+    font-family: var(--font-heading);
+    color: #8b949e;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.vibe-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.vibe-card-link:hover {
+    gap: 12px;
+}
+
+.vibe-card-link.muted {
+    color: #8b949e;
+    cursor: default;
+}
+
+.vibe-card-link.muted:hover {
+    gap: 8px;
+}
+
 /* Project Cards */
 .projects-grid {
     display: grid;
@@ -547,5 +789,13 @@ footer {
 
     .about-image {
         margin-top: 40px;
+    }
+
+    .vibe-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vibe-grid-single {
+        grid-template-columns: 1fr;
     }
 }
